@@ -44,6 +44,8 @@ for eksempel-applikasjonen vår.
 
 * Kom i gang med Travis for github; https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github
 
+* Kom i gang med Travis fot Java ; https://docs.travis-ci.com/user/languages/java/
+
 ## Bonusoppgaver 
 
 * Registrer konto på heroku.com https://signup.heroku.com/

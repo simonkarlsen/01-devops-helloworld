@@ -1,17 +1,12 @@
-# Getting Started
+# 01 - Travis
 
-### Reference Documentation
-For further reference, please consider the following sections:
+Målet for Lab dag 1 er som følger
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/reference/htmlsingle/#boot-features-developing-web-applications)
+* Du skal ha Docker installert på maskinen din.
 
-### Guides
-The following guides illustrate how to use some features concretely:
+* Du skal lage eller tilpasse en liten applikasjon som har Spring Boot web modulen og en database (kan være "in memory" (h2 for eksempel) laget i Spring Boot og må bygge med Maven eller Gradle.
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-
+* Bruk gjerne https://start.spring.io/
+* Du skal sjekke koden inn i et repository på Github.com
+* Du skal registrere en bruker på TravisCI
+* Travis skal bygge koden hver gang du gjør en push til master branch på Github

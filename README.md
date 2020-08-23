@@ -19,4 +19,21 @@ for å komme raskt i gang. Hvis du bruker Spring Init verktøyet, legg til avhen
 mvn spring-boot:run
 ````
 
-* T
+* I de fire første forelesningene skal vi jobbe med "flow" - veien koden vår tar fra vi har skrevet den, til den oppleces av systemets brukere.
+Et viktig verktøy for å få en smidig reise, er et godt vertkøy for det vi kaller CI og CD (Continous Integration, Continous delivery) 
+Vi skal prate med om dette i neste forelesning, i dag skal vi sette opp vertøyet. 
+
+* Målet er at Travis skal kjøre unit tester- og kompilere koden, hver gang vi gjør en push til master branch på github
+for eksempel-applikasjonen vår. 
+
+* Kom i gang med Travis for github; https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github
+
+
+* Bonusoppgaver 
+
+* Registrer konto på heroku.com https://signup.heroku.com/
+
+* Ta en kikk på hvordan man deployer spring boot applikasjoner til Heroku. 
+https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
+
+

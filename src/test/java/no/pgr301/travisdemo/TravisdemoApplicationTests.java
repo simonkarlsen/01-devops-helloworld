@@ -10,9 +10,4 @@ class TravisdemoApplicationTests {
   void contextLoads() {
   }
 
-
-  @Test
-  void assertSomethingIsWrong() {
-    assert (1 == 2);
-  }
 }

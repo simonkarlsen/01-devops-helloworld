@@ -6,8 +6,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class TravisdemoApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+  @Test
+  void contextLoads() {
+  }
 
+
+  @Test
+  void assertSomethingIsWrong() {
+    assert (1 == 2);
+  }
 }

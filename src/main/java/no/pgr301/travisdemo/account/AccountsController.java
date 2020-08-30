@@ -18,7 +18,7 @@ public class AccountsController {
     }
 
     @RequestMapping(path = "/accounts/{ssn}")
-    public List<Account> getMessage(@PathVariable("ssn") String ssn) {
+    public List<Account> getAccounts(@PathVariable("ssn") String ssn) {
         return accountRepository.findBySocialSecurityNumber(ssn);
     }
 

@@ -9,7 +9,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface AccountRepository extends PagingAndSortingRepository<Account, Long> {
-
     List<Account> findBySocialSecurityNumber(@Param("ssn") String name);
-
 }

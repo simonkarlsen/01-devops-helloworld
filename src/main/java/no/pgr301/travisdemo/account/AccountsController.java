@@ -17,11 +17,9 @@ public class AccountsController {
         this.accountRepository = accountRepository;
     }
 
-
     @RequestMapping(path = "/ping")
-    public String ping()
-    {
-        return "pong";
+    public String ping() {
+        return "pongo";
     }
 
     @RequestMapping(path = "/accounts/{ssn}")

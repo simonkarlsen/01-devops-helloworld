@@ -21,4 +21,5 @@ public class AccountsController {
     public List<Account> getMessage(@PathVariable("ssn") String ssn) {
         return accountRepository.findBySocialSecurityNumber(ssn);
     }
+
 }

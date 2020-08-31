@@ -22,11 +22,6 @@ public class AccountsController {
         return "pongo";
     }
 
-    @RequestMapping(path = "/pong")
-    public String pong() {
-        return "ping";
-    }
-
     @RequestMapping(path = "/accounts/{ssn}")
     public List<Account> getAccounts(@PathVariable("ssn") String ssn) {
         return accountRepository.findBySocialSecurityNumber(ssn);

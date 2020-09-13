@@ -22,7 +22,7 @@ public class AccountsController {
         return "pongo";
     }
 
-    @RequestMapping(path = "/poing")
+    @RequestMapping(path = "/pong")
     public String pong() {
         return "ping";
     }

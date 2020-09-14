@@ -5,7 +5,6 @@ services:
 
 script:
   - bash docker_push
-  - bash docker_build
 
 env:
   global:

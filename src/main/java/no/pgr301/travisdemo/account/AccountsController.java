@@ -19,7 +19,7 @@ public class AccountsController {
 
     @RequestMapping(path = "/ping")
     public String ping() {
-        return "pongo";
+        return "pong";
     }
 
     @RequestMapping(path = "/pong")

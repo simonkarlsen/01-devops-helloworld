@@ -4,7 +4,7 @@ services:
 - docker
 
 script:
-  - bash docker_push
+  - bash do_the_amazing_docker_thing
 
 env:
   global:

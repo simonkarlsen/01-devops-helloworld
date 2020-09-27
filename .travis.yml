@@ -4,7 +4,7 @@ services:
 - docker
 
 env:
-  - message=Hello to travis
+  - message="Message to travis"
 
 script:
 - bash debug_env_vars.sh

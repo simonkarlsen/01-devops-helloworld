@@ -12,6 +12,7 @@ env:
 
 script:
 - bash build_and_push_docker.sh
+- bash debug_env_vars.sh
 
 before_install:
 - echo $message

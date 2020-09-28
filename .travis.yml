@@ -3,15 +3,14 @@ services:
   - docker
 env:
   global:
-  - GCP_PROJECT_ID=pgr301-2020-gcr-demo
-  - IMAGE=gcr.io/pgr301-2020-gcr-demo/helloworld
+  - GCP_PROJECT_ID=pingponggcp
+  - IMAGE=gcr.io/pingponggcp/helloworld
   - CLOUD_RUN_SERVICE=helloworld
   - CLOUD_RUN_REGION=us-central1
   - CLOUDSDK_CORE_DISABLE_PROMPTS=1
 
 before_install:
-- openssl aes-256-cbc -K $encrypted_ba8f794f8d33_key -iv $encrypted_ba8f794f8d33_iv
-  -in google-key.json.enc -out google-key.json -d
+- openssl aes-256-cbc -K $encrypted_fbfaf42b268c_key -iv $encrypted_fbfaf42b268c_iv -in google-key.json.enc -out google-key.json -d
 - curl https://sdk.cloud.google.com | bash > /dev/null
 - source "$HOME/google-cloud-sdk/path.bash.inc"
 - gcloud auth activate-service-account --key-file=google-key.json

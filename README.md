@@ -52,3 +52,5 @@ for eksempel-applikasjonen vår.
 
 * Ta en kikk på hvordan man deployer spring boot applikasjoner til Heroku. 
 https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
+
+..
